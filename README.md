@@ -3,12 +3,12 @@ Contains a module with reverse engineered Marantz Web API endpoint wrappers.
 Contains another module that turns of the AVR for energy saving.  
 
 ## How to deploy
-- `git@github.com:jorritvm/marantz1602_control.git`
+- `git glone git@github.com:jorritvm/marantz1602_control.git`
 - `cd marantz1602_control`
 - `poetry install --no-root`
 
 ## How to run once locally
-- `poetry shell`
+- `.venv\Scripts\activate.bat`
 - `cd src`
 - `python energy_saver.py`
 
